@@ -1,0 +1,37 @@
+raspistill -o cam.jpg
+
+
+Trying uv4l https://www.linux-projects.org/uv4l/installation/
+
+sudo service uv4l_raspicam [start, stop, restart]
+
+/etc/uv4l/uv4l-raspicam.conf 
+
+$ man uv4l
+$ man uv4l-raspicam
+$ uv4l --help --driver raspicam --driver-help
+
+Update node.js:
+$ sudo apt-get update
+$ sudo apt-get dist-upgrade
+# To install latest - pi@w3demopi:~ $ curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+$ sudo apt-get install -y nodejs
+$ sudo apt-get install -y npm
+$ node -v
+
+# node capture video
+https://github.com/troyth/node-raspicam
+https://github.com/stetsmando/pi-camera
+https://www.npmjs.com/search?q=raspberry%20camera&ranking=popularity
+
+# node WebRTC
+https://www.npmjs.com/package/wrtc
+
+# node tensorflow
+https://www.tensorflow.org/js/guide/nodejs
+
+# node openCV
+
+
+
+
